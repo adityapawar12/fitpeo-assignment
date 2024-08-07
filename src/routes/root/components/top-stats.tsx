@@ -8,7 +8,7 @@ function TopStats() {
         isProfitablePercentage={true}
         value={"75"}
         percentage={3}
-        iconImageUrl="/total-orders-icon.jpg"
+        iconImageUrl="/dashboard/top-stats/total-orders-icon.jpg"
       />
 
       <TopStatsCard
@@ -16,21 +16,21 @@ function TopStats() {
         isProfitablePercentage={false}
         value={"70"}
         percentage={3}
-        iconImageUrl="/delivered-orders-icon.jpg"
+        iconImageUrl="/dashboard/top-stats/delivered-orders-icon.jpg"
       />
       <TopStatsCard
         name="Total Cancelled"
         isProfitablePercentage={true}
         value={"05"}
         percentage={3}
-        iconImageUrl="/cancelled-orders-icon.jpg"
+        iconImageUrl="/dashboard/top-stats/cancelled-orders-icon.jpg"
       />
       <TopStatsCard
         name="Total Revenue"
         isProfitablePercentage={false}
         value={"$12k"}
         percentage={3}
-        iconImageUrl="total-revenue-icon.jpg"
+        iconImageUrl="/dashboard/top-stats/total-revenue-icon.jpg"
       />
     </div>
   );

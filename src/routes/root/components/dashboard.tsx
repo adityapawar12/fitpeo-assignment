@@ -4,6 +4,7 @@ import Goals from "./goals";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import Activity from "./activity";
 import RecentOrders from "./recent-orders";
+import CustomerFeedbacks from "./customer-feedbacks";
 
 function Dashboard() {
   return (
@@ -17,12 +18,19 @@ function Dashboard() {
           <div className="hidden md:block xl:hidden pt-4">
             <Activity />
           </div>
+
+          <div className="hidden md:block xl:hidden pt-4">
+            <RecentOrders />
+          </div>
         </div>
         <div className="md:col-span-4 xl:col-span-4 2xl:col-span-3 h-auto md:h-full max-md:pt-4">
           <NetProfit />
 
           <div className="hidden md:block xl:hidden pt-4">
             <Goals />
+          </div>
+          <div className="hidden md:block xl:hidden pt-4">
+            <CustomerFeedbacks />
           </div>
         </div>
       </div>
@@ -50,7 +58,7 @@ function Dashboard() {
 
         <div className="md:col-span-4 xl:col-span-4 2xl:col-span-3 h-auto md:h-full max-md:pt-4">
           <div className="block md:hidden xl:block">
-            <Goals />
+            <CustomerFeedbacks />
           </div>
         </div>
       </div>

@@ -17,7 +17,7 @@ function NetProfit() {
           </CardTitle>
         </CardHeader>
         <CardContent className="p-0 m-0">
-          <h2 className="font-sans font-extrabold text-white text-2xl lg:text-3xl xl:text-4xl py-4">
+          <h2 className="font-sans font-extrabold text-white text-2xl md:text-xl lg:text-3xl xl:text-4xl py-4">
             $ 6759.25
           </h2>
         </CardContent>
@@ -29,13 +29,13 @@ function NetProfit() {
         </CardFooter>
       </Card>
       <Card className="bg-[#1f2029] border-0 w-2/4">
-        <CardContent className="p-0 m-0 flex flex-col justify-center items-center">
+        <CardContent className="p-0 m-0 flex flex-col justify-center items-end md:items-center 2xl:items-end">
           <img
-            src={"/net-profit-chart.jpg"}
+            src={"/dashboard/net-profit-chart.jpg"}
             alt={"Net Profit"}
             className="pb-2 h-24 md:h-20 lg:h-28 w-auto"
           />
-          <small className="text-[10px] font-sans font-light text-white text-center px-4">
+          <small className="text-[10px] md:text-[7px] lg:text-[10px] font-sans font-light text-white text-center px-4">
             *The values here have been rounded off.
           </small>
         </CardContent>
