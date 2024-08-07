@@ -1,3 +1,4 @@
+import NetProfit from "./net-profit";
 import TopStatsCard from "./top-stats-card";
 
 function Dashboard() {
@@ -5,9 +6,9 @@ function Dashboard() {
     <div className="w-full h-[calc(100vh-4rem)] p-4 text-white">
       <h1 className="font-sans font-bold text-lg text-white pb-4">Dashboard</h1>
 
-      <div className="grid grid-cols-10 h-[calc(100%-2.75rem)] gap-6">
-        <div className="col-span-10 lg:col-span-7 h-full">
-          <div className="grid grid-cols-1 2xs:grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="md:grid md:grid-cols-10 xl:grid-cols-12 2xl:grid-cols-10 h-[calc(100%-2.75rem)] gap-0 md:gap-6">
+        <div className="md:col-span-6 xl:col-span-8 2xl:col-span-7 h-auto md:h-full">
+          <div className="grid grid-cols-2 md:grid-cols-2 xl:grid-cols-4 gap-4">
             <TopStatsCard
               name="Total Orders"
               isProfitablePercentage={true}
@@ -39,8 +40,8 @@ function Dashboard() {
             />
           </div>
         </div>
-        <div className="col-span-10 lg:col-span-3 h-full">
-          <div></div>
+        <div className="md:col-span-4 xl:col-span-4 2xl:col-span-3 h-auto md:h-full max-md:pt-4">
+          <NetProfit />
         </div>
       </div>
     </div>
