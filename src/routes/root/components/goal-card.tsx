@@ -16,7 +16,7 @@ function GoalCard({ name, iconImageUrl }: Props) {
             alt={"Net Profit"}
             className="px-0 max-md:pr-4 max-lg:pr-2 lg:px-4 h-16 md:h-10 lg:h-20 w-auto"
           />
-          <h2 className="font-sans font-normal text-white text-xl md:text-base lg:text-xl">
+          <h2 className="font-sans font-normal text-white text-sm xs:text-base sm:text-xl md:text-base lg:text-xl">
             {name}
           </h2>
         </div>

@@ -1,3 +1,4 @@
+import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
   Table,
@@ -102,7 +103,15 @@ function RecentOrders() {
                   {order.amount}
                 </TableCell>
                 <TableCell className="font-sans font-medium text-white text-base">
-                  {order.status}
+                  {order.status === "Delivered" ? (
+                    <Badge className="text-green-400 bg-green-700">
+                      {order.status}
+                    </Badge>
+                  ) : (
+                    <Badge className="text-red-400 bg-red-700">
+                      {order.status}
+                    </Badge>
+                  )}
                 </TableCell>
               </TableRow>
             ))}

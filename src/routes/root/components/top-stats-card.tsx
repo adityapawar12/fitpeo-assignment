@@ -27,7 +27,9 @@ function TopStatsCard({
         <img src={iconImageUrl} alt={name} className="pb-2 h-14 w-min" />
       </CardHeader>
       <CardContent className="p-0 m-0">
-        <h3 className="font-sans font-semibold text-lg text-white">{name}</h3>
+        <h3 className="font-sans font-semibold text-xs xs:text-base sm:text-lg text-white">
+          {name}
+        </h3>
       </CardContent>
       <CardFooter className="flex flex-row justify-between items-end p-0 m-0 mt-5">
         <h2 className="font-sans font-bold text-3xl text-white">{value}</h2>

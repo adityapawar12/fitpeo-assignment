@@ -29,7 +29,7 @@ function NetProfit() {
         </CardFooter>
       </Card>
       <Card className="bg-[#1f2029] border-0 w-2/4">
-        <CardContent className="p-0 m-0 flex flex-col justify-center items-end md:items-center 2xl:items-end">
+        <CardContent className="p-0 m-0 flex flex-col justify-center items-center sm:items-end md:items-center 2xl:items-end">
           <img
             src={"/dashboard/net-profit-chart.jpg"}
             alt={"Net Profit"}

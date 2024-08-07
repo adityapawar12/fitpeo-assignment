@@ -23,7 +23,7 @@ function TopNav() {
         <SearchIcon className="h-[16px] w-[16px] text-white" />
         <Input
           placeholder="Search"
-          className="w-full p-2 text-white placeholder:text-white focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 bg-transparent border-0 focus-visible:ring-offset-0 focus-visible:ring-0"
+          className="w-full max-2xs:max-w-40 p-2 text-white placeholder:text-white focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 bg-transparent border-0 focus-visible:ring-offset-0 focus-visible:ring-0"
         />
       </div>
       <div className="flex flex-row justify-end gap-2">
