@@ -18,11 +18,17 @@ function FeedbackCard({ name, profileImageUrl, noOfStars, feedback }: Props) {
         </CardTitle>
         <div className="flex flex-row justify-start items-center gap-1 pb-2">
           {Array.from({ length: noOfStars }, (_, index) => (
-            <Star className="text-yellow-400" key={index} />
+            <Star
+              size={16}
+              strokeWidth={3}
+              absoluteStrokeWidth
+              className="text-yellow-400"
+              key={index}
+            />
           ))}
 
           {Array.from({ length: 5 - noOfStars }, (_, index) => (
-            <Star key={index} />
+            <Star size={16} strokeWidth={3} absoluteStrokeWidth key={index} />
           ))}
         </div>
       </CardHeader>
