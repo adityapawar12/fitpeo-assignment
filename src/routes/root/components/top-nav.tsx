@@ -13,7 +13,7 @@ function TopNav() {
     "text-neutral-400 bg-zinc-700 rounded-full h-8 w-8 p-2 hidden md:block";
 
   return (
-    <div className="h-16 w-full bg-neutral-800 flex flex-row justify-between items-center p-4">
+    <div className="h-16 w-full bg-[#1f2029] flex flex-row justify-between items-center p-4">
       <div
         className={cn(
           "flex h-10 items-center rounded-md border-input pl-3 text-sm bg-[#292b2f] border border-gray-700 outline-none ring-offset-gray-700 focus-within:ring-1 focus-within:ring-ring focus-within:ring-offset-2"

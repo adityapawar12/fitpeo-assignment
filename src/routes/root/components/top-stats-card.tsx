@@ -22,7 +22,7 @@ function TopStatsCard({
   iconImageUrl,
 }: Props) {
   return (
-    <Card className="bg-neutral-800 p-4 rounded-md col-span-1 border-0">
+    <Card className="bg-[#1f2029] p-4 rounded-md col-span-1 border-0">
       <CardHeader className="p-0 m-0">
         <img src={iconImageUrl} alt={name} className="pb-2 h-14 w-min" />
       </CardHeader>

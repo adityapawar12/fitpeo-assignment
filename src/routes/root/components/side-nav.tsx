@@ -12,10 +12,10 @@ import {
 function SideNav() {
   const iconContainerStyles = "flex justify-center items-center w-full h-14";
   const iconStyles =
-    "text-zinc-500 hover:text-indigo-400 border-l-4 border-neutral-800 hover:border-indigo-400 h-full w-full p-4";
+    "text-zinc-500 hover:text-indigo-400 border-l-4 border-[#1f2029] hover:border-indigo-400 h-full w-full p-4";
 
   return (
-    <div className="h-screen w-16 bg-neutral-800 flex flex-col justify-between">
+    <div className="h-screen w-16 bg-[#1f2029] flex flex-col justify-between">
       <div>
         <p className="w-full h-16 flex justify-center items-center">
           <Signature className="text-indigo-400" />

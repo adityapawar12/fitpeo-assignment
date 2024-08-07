@@ -9,7 +9,7 @@ function RootPage() {
         <SideNav />
       </div>
 
-      <div className="w-screen md:w-[calc(100vw-4rem)] bg-neutral-900 h-screen">
+      <div className="w-screen md:w-[calc(100vw-4rem)] bg-[#141316] h-screen">
         <TopNav />
 
         <Dashboard />

@@ -9,8 +9,8 @@ import { ChevronUp } from "lucide-react";
 
 function NetProfit() {
   return (
-    <Card className="bg-neutral-800 p-4 rounded-md col-span-1 border-0 flex justify-between items-center">
-      <Card className="bg-neutral-800 border-0 w-2/4">
+    <Card className="bg-[#1f2029] p-4 rounded-md col-span-1 border-0 flex justify-between items-center">
+      <Card className="bg-[#1f2029] border-0 w-2/4">
         <CardHeader className="p-0 m-0">
           <CardTitle className="font-sans font-semibold text-white text-base">
             Net Profit
@@ -28,12 +28,12 @@ function NetProfit() {
           </div>
         </CardFooter>
       </Card>
-      <Card className="bg-neutral-800 border-0 w-2/4">
-        <CardContent className="p-0 m-0 flex flex-col justify-center items-center lg:items-end">
+      <Card className="bg-[#1f2029] border-0 w-2/4">
+        <CardContent className="p-0 m-0 flex flex-col justify-center items-center">
           <img
             src={"/net-profit-chart.jpg"}
             alt={"Net Profit"}
-            className="pb-2 pr-0 lg:pr-8 h-20 lg:h-28 w-auto"
+            className="pb-2 h-24 md:h-20 lg:h-28 w-auto"
           />
           <small className="text-[10px] font-sans font-light text-white text-center px-4">
             *The values here have been rounded off.
