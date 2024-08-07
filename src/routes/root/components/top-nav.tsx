@@ -1,12 +1,6 @@
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
-import {
-  BellDot,
-  CircleUserRound,
-  Mail,
-  SearchIcon,
-  Settings,
-} from "lucide-react";
+import { BellDot, Mail, SearchIcon, Settings } from "lucide-react";
 
 function TopNav() {
   const iconsStyles =
@@ -14,6 +8,13 @@ function TopNav() {
 
   return (
     <div className="h-16 w-full bg-[#1f2029] flex flex-row justify-between items-center p-4">
+      <div className="w-8 h-16 flex md:hidden justify-center items-center">
+        <img
+          className="rounded-full h-8 w-8"
+          src="/dashboard/main-logo.jpg"
+          alt="Logo"
+        />
+      </div>
       <div
         className={cn(
           "flex h-10 items-center rounded-md border-input pl-3 text-sm bg-[#292b2f] border border-gray-700 outline-none ring-offset-gray-700 focus-within:ring-1 focus-within:ring-ring focus-within:ring-offset-2"
@@ -32,9 +33,10 @@ function TopNav() {
 
         <BellDot className={cn(iconsStyles)} />
 
-        <CircleUserRound className="text-neutral-400 bg-zinc-700 rounded-full h-8 w-8 ml-2 hidden md:block" />
-
-        <CircleUserRound className="text-neutral-400 bg-zinc-700 rounded-full h-8 w-8 ml-2 block md:hidden" />
+        <img
+          className="rounded-full h-8 w-8 ml-2"
+          src="/dashboard/main-profile-image.jpg"
+        />
       </div>
     </div>
   );
